@@ -1,0 +1,14 @@
+.skeleton-cell {
+  height: 20px; /* Set an appropriate height */
+  background-color: #f0f0f0; /* Set a background color */
+  width: 50%; /* Adjust this value based on the number of columns in your table */
+}
+
+.blur {
+  filter: blur(2px); /* Add a slight blur effect */
+  background-color: #e0e0e0; /* Adjust the background color for the blur effect */
+}
+
+.skeleton-cell + .skeleton-cell {
+  margin-left: 10px; /* Adjust the spacing between cells */
+}
